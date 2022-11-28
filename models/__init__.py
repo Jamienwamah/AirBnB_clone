@@ -1,5 +1,10 @@
-#!/usr/bin/python3
-"""__init__ magic method for models directory"""
+#!/usr/bin/env python3
+"""
+models module documentation
+
+storage is a singleton to FileStorage
+and reload objects to file.json
+"""
 from models.engine.file_storage import FileStorage
 
 
